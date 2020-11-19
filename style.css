@@ -19,8 +19,10 @@ table {
     border: hidden;
 }
 
-table.enero {
-    border: hidden;
+caption.enero {
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 5px;
 }
 
 tr,td,th {
