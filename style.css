@@ -16,7 +16,7 @@ table {
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
-    border: hidden;
+    border-collapse: collapse;
 }
 
 caption.enero {
@@ -25,6 +25,51 @@ caption.enero {
     letter-spacing: 5px;
 }
 
-tr,td,th {
-    border: hidden;
+table.enero th{
+    width: 50px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+table.enero td {
+    text-align: center;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+caption.febrero {
+    font-weight: bold;
+    text-align: right;
+}
+
+table.febrero th {
+    width: 40px;
+}
+
+table.febrero td,table.febrero th {
+    border-top: hidden;
+    border-bottom: hidden;
+    text-align: right;
+    margin-right: px;
+}
+
+table.febrero td {
+    font-size: 25px;
+}
+
+caption.marzo {
+    text-align: left;
+    letter-spacing: 10px;
+    margin-bottom: 2px;
+}
+
+table.marzo th {
+    width: 50px;
+}
+
+table.marzo td {
+    height: 45px;
+    font-size: 10px;
+    text-align: left;
 }
